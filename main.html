@@ -1,36 +1,55 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Student Details Table</title>
+    <style>
+        table {
+            background-color: yellow;
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        th, tr, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
 </head>
-
 <body>
-	<table   border >
-		<caption>Student Details </caption>
-		<tbody>
-		<tr>
-			<th> NAME</th>
-			<th> AGE</th>
-			<th>BRANCH</th>
-		</tr>
-		
-		<tr>
-			<th> Shaw</th>
-			<th> 20 </th>
-			<th> CSE</th>
-		</tr>
-		
-		<tr>
-			<th> Adil</th>
-			<th> 21</th>
-			<th> ECE</th>
-		</tr>
-		</tbody>
-	</table>
 
+    <table>
+        <caption>Student Details</caption>
+
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>BRANCH</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Aarav</td>
+                <td>20</td>
+                <td>CSE</td>
+            </tr>
+            <tr>
+                <td>Neha</td>
+                <td>21</td>
+                <td>IT</td>
+            </tr>
+            <tr>
+                <td>Rohan</td>
+                <td>22</td>
+                <td>ECE</td>
+            </tr>
+        </tbody>
+    </table>
 
 </body>
-
 </html>
+
